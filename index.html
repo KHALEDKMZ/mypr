@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMZ - Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/523838451_3092787880859965_3766239793906969411_n.png" alt="Logo" style="margin-top: 10px;">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-btn active">Home</a>
+                <a href="works.html" class="nav-btn">Works</a>
+                <a href="contact.html" class="nav-btn">Contact</a>
+            </div>
+            <div class="nav-extras">
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section active">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Khaled {KMZ}</span><br>
+                        A Graphic Designer
+                    </h1>
+                    <p class="hero-description">
+                        Creating stunning visual experiences through innovative design solutions. 
+                        Specializing in logo design and poster creation that brings brands to life.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="showSection('works')">View My Work</button>
+                        <button class="btn btn-secondary" onclick="showSection('contact')">Get In Touch</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="design-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

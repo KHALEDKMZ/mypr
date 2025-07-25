@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Brand Logo Design",
+      "category": "logo",
+      "image": "images/523838451_3092787880859965_3766239793906969411_n.png",
+      "alt": "Logo Design 1"
+    },
+    {
+      "id": 2,
+      "title": "Event Poster",
+      "category": "poster",
+      "image": "images/poster1.jpg",
+      "alt": "Poster Design 1"
+    },
+    {
+      "id": 3,
+      "title": "Brand Logo Design",
+      "category": "logo",
+      "image": "images/logo2.png",
+      "alt": "Logo Design 2"
+    },
+    {
+      "id": 4,
+      "title": "Event Poster",
+      "category": "poster",
+      "image": "images/poster-2.png",
+      "alt": "Poster Design 2"
+    }
+  ]
+}

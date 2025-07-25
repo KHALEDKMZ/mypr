@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMZ - My Works</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/523838451_3092787880859965_3766239793906969411_n.png" alt="Logo" style="margin-top: 10px;">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-btn">Home</a>
+                <a href="works.html" class="nav-btn active">Works</a>
+                <a href="contact.html" class="nav-btn">Contact</a>
+            </div>
+            <div class="nav-extras">
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section class="section works-section">
+        <div class="container">
+            <h2 class="section-title">My Works</h2>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="logo">LOGO</button>
+                <button class="filter-btn" data-filter="poster">POSTER</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be dynamically loaded here -->
+                <div class="loading-spinner">Loading portfolio items...</div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

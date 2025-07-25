@@ -27,6 +27,16 @@
       "category": "poster",
       "image": "images/poster-2.png",
       "alt": "Poster Design 2"
+    },
+    
+{
+      "id": 5,
+      "title": "Event Poster",
+      "category": "poster",
+      "image": "images/pnd.png",
+      "alt": "Poster Design 2"
     }
+      
+    
   ]
 }
